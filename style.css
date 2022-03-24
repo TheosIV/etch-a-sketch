@@ -1,0 +1,79 @@
+*{
+    /* border: 1px solid black; */
+    font-family: 'Orbitron', sans-serif;
+    
+}
+#title{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+    
+}
+#workspace{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-end;
+    gap: 50px;
+}
+#tools{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40em;
+    width: 30em;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+button{
+    height: 2.5em;
+    width:7em ;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+}
+#tools:hover, #container:hover{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+button:hover{
+    box-shadow: 5px 5px 5px 5px white;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+.cell{
+    outline: 0.5px solid #f2f2f2;
+}
+#footer{
+    font-size: 0.8rem;
+    
+}
+a{
+    color: white;
+}
+i{
+    font-size: large;
+}

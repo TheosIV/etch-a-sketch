@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/d45059756f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <div id="workspace">
+        
+        <div id="tools">
+            <div id="title" class="tool-item">
+                <p>Etch-A-Sketch</p>
+            </div>
+            <div id="colorpicker" class="tool-item">
+                <label for="colorpicker">Pick Color:</label>
+                <input type="color" id="favcolor" name="tool" value="#000000">
+            </div>
+            <div id="rainbow" class="tool-item" >
+                <button id="rainbowbtn">RAINBOW</button>
+            </div>
+            <div id="eraser" class="tool-item">
+                <button id="eraser">ERASER</button>
+            </div>
+            <div id="reset" class="tool-item">
+                <button id="resetbtn">RESET</button>
+            </div>
+            <div id="pixelsize" class="tool-item">
+                <label for="vol">Pixelsize:</label>
+                <input type="range" id="pixelrange" name="tool" min="-100" max="-1" value="-25">
+                
+            </div>
+            <div id="footer" class="tool-item">
+                <p>Created by- <a href="https://github.com/priya-survase">priya-survase <i class="fab fa-github"></i></a></p>
+                
+            </div>
+
+        </div>
+        <div id="container">
+
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
